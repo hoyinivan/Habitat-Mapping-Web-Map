@@ -10,7 +10,7 @@ pyproj.transform(p1,p2,-2478053.2006,-3736604.9657,4521684.4805)
 
 pyproj.transform(p1,p2,-2393615.9947,5399511.1912,2400677.6139)
 
-with open("M:/FieldTruthingSurvey/Result/Day13_KeungShan/Day13_KeungShan Files/coordinate3.txt", "r") as file:
+with open("coordinate3.txt", "r") as file:
         for line in file:
             x, y, z = line.split()
             x = float(x)
